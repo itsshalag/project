@@ -1,18 +1,133 @@
-.container{
+/* .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     
-}
+} */
 
 .header, .footer{
     background-color: #1f2937;
     color: white;
 
 }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 ul{
     list-style: none;
     display: flex;
     gap: 4px;
+}
+
+.headerLogo{
+    font-size: 18px;
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.headerList{
+    gap: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.secRow{
+    background: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    padding-bottom: 30px;
+   
+}
+.signUp{
+    background: #3882F6;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    
+}
+
+.signUp:hover{
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.subText{
+    margin-top: 0px;
+    font-size: 18px;
+    color: E5E7EB;
+}
+
+#leaf{
+    width: auto;
+    height: 250px;
+}
+
+.thirdRow{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoHeader{
+    text-align: center;
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.infoList{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.forthRow{
+    padding: 40px;
+    background-color: #E5E7EB;
+}
+.quote{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light italic;
+}
+
+.author{
+    text-align: right;
+}
+
+.fifthRow{
+    color: white;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.firstBox{
+    background-color: #3882F6;
+    padding: 5px
+}
+
+.secondBox{
+    background-color: #3882F6;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
 }
