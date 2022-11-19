@@ -91,6 +91,15 @@ h1{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: auto;
+}
+img{
+    width: auto;
+    height: 200px;
+}
+
+.text{
+    text-align: center;
 }
 
 
